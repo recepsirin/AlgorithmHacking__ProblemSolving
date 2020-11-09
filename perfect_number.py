@@ -1,8 +1,10 @@
-def perfect_number(attained_list):
+def perfect_number(attained_list: list) -> list:
     """Method signature will be updated asap"""
+    p_numbers = list()
+
     for n in attained_list:
 
-        if n != 1:
+        if n == 1:
             continue
 
         total = 1
@@ -14,6 +16,6 @@ def perfect_number(attained_list):
             m += 1
 
         if total == n:
-            print("equal")
-        else:
-            print("not equal")
+            p_numbers.append(n)
+
+    return p_numbers
