@@ -1,5 +1,5 @@
 def perfect_number(attained_list: list) -> list:
-    """Method signature will be updated asap"""
+    """Calculates perfect numbers according to the given list items and returns them as list"""
     p_numbers = list()
 
     for n in attained_list:
@@ -19,3 +19,6 @@ def perfect_number(attained_list: list) -> list:
             p_numbers.append(n)
 
     return p_numbers
+
+# try it out with sample numbers
+# following list contains sample perfect numbers [6, 25, 26, 28, 39, 60, 80, 99, 125, 468]
