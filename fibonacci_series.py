@@ -3,5 +3,3 @@ def fib_series(n):
     if n <= 0:
         return n
     return fib_series(n - 1) + fib_series(n - 2)
-
-
